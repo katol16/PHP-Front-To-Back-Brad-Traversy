@@ -49,8 +49,9 @@
     # foreach with assocciative array
     $people2 = array('Brad' => 'brad@op.pl', 'Jose' => 'jose@op.pl', 'Karol' => 'karol@op.pl');
 
-foreach($people as $person => $email) {
-    echo $person.': '.$email;
-    echo '<br>';
-}
+    foreach($people as $person => $email) {
+        echo $person.': '.$email;
+        echo '<br>';
+    }
+
 ?>
