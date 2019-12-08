@@ -46,7 +46,7 @@
     }
 
     // Jak chcemy żeby był przekazywane przez reference, to musimy zrobić to &$num
-// UWAGA! to jest rzadko używane!
+    // UWAGA! to jest rzadko używane!
     function addTen(&$num) {
         $num += 10;
     }
