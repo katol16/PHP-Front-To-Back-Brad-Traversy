@@ -1,8 +1,8 @@
 <?php
     //  Get & Post Tutorial
-    // Pamietaj,z e tu mzoe cos nie dzialc, bo trzeba pare rzeczy zakomentować -ale to jest tylko poglądowe
+    // Pamietaj, ze tu moze cos nie dzialać, bo trzeba pare rzeczy zakomentować - ale to jest tylko poglądowe
 
-    // Za pomocą GET mozemy przesyłąć dane i będa one rpzesyłane w URL (POST jest bezpieczniejszy!)
+    // Za pomocą GET mozemy przesyłąć dane i będa one przesyłane w URL (POST jest bezpieczniejszy!)
     // Tutaj $_GET jest Superglobal
     if(isset($_GET['name'])) {
         // print_r($_GET);
@@ -15,7 +15,7 @@
         echo $name;
     }
 
-    // Za pomocą POST powinniśmy wysyłąć dane, bo jest bezpieczniejszy i dane są wysyłąne w headers
+    // Za pomocą POST powinniśmy wysyłąć dane, bo jest bezpieczniejszy i dane są wysyłane w headers
     // Tutaj $_POST jest Superglobal
     if(isset($_POST['name'])) {
         // print_r($POST);

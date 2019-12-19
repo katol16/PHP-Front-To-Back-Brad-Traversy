@@ -33,7 +33,7 @@
 
 	$greeting = $string1 .' '. $string2.'!';
 	// 2 sposób poniżej (łatwiejszy)
-	$greeting2 = "$string1 $string2"
+	$greeting2 = "$string1 $string2";
 
 	echo $greeting;
 	echo $greeting2;
@@ -47,7 +47,7 @@
 	echo $string4;
 
 	$float1 =  4.4;
-	$bool1 = true
+	$bool1 = true;
 
 
 	// Constants - tworzenie stałych w php jak (const w js)
@@ -55,7 +55,7 @@
 	define('NAZWASTALEJ','wartosc stalej');
 	echo NAZWASTALEJ;
 
-	// 3 patrametr "true" powoduje,z e stała nie jest "case sensitive" dlatego "echo nazwastalej2;" zadziala
+	// 3 patrametr "true" powoduje, ze stała nie jest "case sensitive" dlatego "echo nazwastalej2;" zadziala
 	define('NAZWASTALEJ2','wartosc stalej', true);
 	echo nazwastalej2;
 

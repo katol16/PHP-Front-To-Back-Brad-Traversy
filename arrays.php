@@ -37,7 +37,7 @@
 		// klucz to peirwsza wartość
 
 		// ponziej klucz to 'Brad' i 'Jose'
-		$people = array('Brad' => 35, 'Jose' => 32)
+		$people = array('Brad' => 35, 'Jose' => 32);
 		echo $people['Brad']; // zwróci 35
 
 		$ids = [22 => 'Brad', 44 => 'Jose'];

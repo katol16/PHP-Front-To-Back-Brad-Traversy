@@ -1,6 +1,6 @@
 <?php
-    # $_SERVER Superglobal - dostepna w całym scopei zmienna $_SERVER
-    # Zazaywczja super global zaycnza się od $_
+    # $_SERVER Superglobal - dostepna w całym scopie zmienna $_SERVER
+    # Zazwyczaj super global zaczyna się od $_
     # $_SERVER - powinna zawierać inforamcje o serwerze -> Dokumentacja: https://www.php.net/manual/en/reserved.variables.server.php
 
 

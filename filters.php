@@ -47,7 +47,7 @@
         var_dump(filter_var($var, FILTER_SANITIZE_NUMBER_INT)); // wywali literki i zostawi same cyfry
 
         $var2 = '<script>alert(1)</script>';
-        echo filter_var($var, FILTER_SANITIZE_SPECIAL_CHARS); // wyrzuci na stronie kod <script> ale nie wstawi tego kodu (jakoś tak)
+        echo filter_var($var, FILTER_SANITIZE_SPECIAL_CHARS); // wyrzuci na stronie kod <script> ze spejcalnymi znakami i nie wstawi tego kodu (jakoś tak)
 
         // For working with multiple fields
         $filters = array(
