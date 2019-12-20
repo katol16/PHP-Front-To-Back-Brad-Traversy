@@ -57,14 +57,14 @@
 </head>
 <body>
 <!--    // Poniżej mozemy też użyc w akcji action="index.php"-->
-    <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+    <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <label>Name</label>
         <input type="text" name="name" value="<?php echo isset($_POST['name']) ? $name : ''; ?>" />
         <label>Email</label>
         <input type="text" name="email" value="<?php echo isset($_POST['email']) ? $email : ''; ?>" />
         <label>Message</label>
         <textarea name="message" value="<?php echo isset($_POST['message']) ? $message : ''; ?>"></textarea>
-        <button type="submit" name="submit"></button>
+        <button type="submit" name="submit">Submit</button>
     </form>
     <?php if($msg != ''): ?>
         <p><?php echo $msg; ?></p>
