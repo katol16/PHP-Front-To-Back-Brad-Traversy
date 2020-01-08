@@ -15,17 +15,17 @@
     //Set Time Zone
     date_default_timezone_set('America/New_York');
 
-    // mktime - make tme function
+    // mktime - make time function
     $timestamp = mktime(10,14,54,9,10,1981);
-    echo($timestamp); // Liczba sekund od 1 stycznia 1970 do teraz
+    echo($timestamp); // Liczba sekund od 1 stycznia 1970 do teraz (TU MA BY RACZEJ DO TEJ DATY Z POWYŻSZEJ LINI)
 
-    // Teraz możmey wys→wetlić date z timestamp w taki sposób
+    // Teraz możemy wyśwetlić date z timestamp w taki sposób
     echo date('m/d/Y h:i:sa', $timestamp);
 
     // string to time
-    // ponizej moze byc też w stringu "tomorrow" albo "next sunday", "+2 months" itd. wiele rzeczy mozesz wpsiac w arguemnt strtotime
+    // poniżej może byc też w stringu "tomorrow" albo "next sunday", "+2 months" itd. wiele rzeczy mozesz wpisac w arguemnt strtotime
     $timestamp2 = strtotime('7:00pm March 22 2016');
-    echo $timestamp2; // timestampt (ilosc sekund od 1 stycznia 1970)
+    echo $timestamp2; // timestampt (ilość sekund od 1 stycznia 1970)
 
     echo date('m/d/y h:i:sa', $timestamp2);
 

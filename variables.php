@@ -51,7 +51,7 @@
 
 
 	// Constants - tworzenie stałych w php jak (const w js)
-	// Popularną praktyką jest by stałe były pisane z duzej litery 
+	// Popularną praktyką jest by stałe były pisane z dużej litery
 	define('NAZWASTALEJ','wartosc stalej');
 	echo NAZWASTALEJ;
 

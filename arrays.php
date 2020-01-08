@@ -32,7 +32,7 @@
 		// Wyświetli całośc z typami danych
 		var_dump($cars);
 
-		// Associative arrays - pozwala przypisać wartośc do danego klucza w tablicy
+		// Associative arrays - pozwala przypisać wartość do danego klucza w tablicy
 
 		// klucz to peirwsza wartość
 

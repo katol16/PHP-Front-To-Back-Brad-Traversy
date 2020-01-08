@@ -2,7 +2,7 @@
     // Tutaj wszystko jest praktycznie tak jak w JS. To proste rzeczy wiec nie ma sensu robic notatek
 
     // Jest jedna dodatkowa rzecz w "LOGICAL OPERATORS":
-    // XOR (Exclusive OR) - Jedno musi być prawdziwe ale nie mogą być OBA! Pamietaj, że w zwykłym OR (||) jedno lub oba mogą byc prawdziwe, by warunek był spełiony
+    // XOR (Exclusive OR) - Jedno musi być prawdziwe ale nie mogą być OBA! Pamiętaj, że w zwykłym OR (||) jedno lub oba mogą byc prawdziwe, by warunek był spełiony
     // Przykład zapisu
 
     $num = 2;

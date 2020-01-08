@@ -10,7 +10,7 @@
     }
 
     // Poniżej skrócona wersja tego co powyżej
-    echo ($loggedIn) ? 'Yo are logged in' : "You are not logged in"
+    echo ($loggedIn) ? 'Yo are logged in' : "You are not logged in";
 
     // przypisanie
     $isRegistered = ($loggedIn == true) ? true : false;
@@ -40,15 +40,11 @@
     <?php endif; ?>
 </div>
 
+// Skrócona wersja foreach
 <div>
     <?php foreach($arr as $val): ?>
         <?php echo $val; ?>
     <?php endforeach; ?>
 </div>
 
-<div>
-    <?php foreach($arr as $val): ?>
-        <?php echo $val; ?>
-    <?php endforeach; ?>
-</div>
 

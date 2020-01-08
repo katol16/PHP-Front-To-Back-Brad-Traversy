@@ -23,9 +23,9 @@
     sayHello('Joe');
     sayHello('Karol');
 
-    // Jak nie pdoamy parametru to wyrzuci error
+    // Jak nie podamy parametru to wyrzuci error
     // sayHello();
-    // chyba, ze ustwimy w definicji funkcji parametr defaultowy, czyli:
+    // chyba, ze ustawimy w definicji funkcji parametr defaultowy, czyli:
     //    function sayHello($name = "world") {
     //        echo "Hello $name<br>";
     //    }
@@ -40,7 +40,7 @@
     // Passing arguments by reference
     $myNum = 10;
 
-    // Normalnie agumenty funckji są przekazywane przez value
+    // Normalnie argumenty funckji są przekazywane przez value
     function addFive($num) {
         $num += 5;
     }
@@ -52,10 +52,10 @@
     }
 
     addFive($myNum);
-    echo "value: $myNum<br>"; // wyświetli 10 a nie 15, bo jest przekazyawane 'by value" wiec nie zmieni tej orginalnej wartości
+    echo "value: $myNum<br>"; // wyświetli 10 a nie 15, bo jest przekazywane 'by value" wiec nie zmieni tej orginalnej wartości
 
     addTen($myNum);
-    echo "value: $myNum<br>" // Tu wyśiwetli 20, bo jest przekazne "by reference" i zmieni orginalną wartość
+    echo "value: $myNum<br>" // Tu wyświetli 20, bo jest przekazne "by reference" i zmieni orginalną wartość
 
 
 ?>
