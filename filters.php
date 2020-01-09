@@ -25,7 +25,7 @@
 //            echo 'Email is NOT valid';
 //        }
 
-        // Przykłądy innych filtrów
+    // Przykłady innych filtrów:
         # FILTER_VALIDATE_BOOLEAN
         # FILTER_VALIDATE_EMAIL
         # FILTER_VALIDATE_INT
@@ -63,7 +63,6 @@
 
         print_r(filter_input_array(INPUT_POST, $filters));
 
-
         // filter var array
         $arr = array(
             "name" => "Karol",
@@ -86,6 +85,7 @@
             "email" => FILTER_VALIDATE_EMAIL
         );
 
+        // Tutaj dzięki filter_var_array zrobimy kilka tych filtrów, które są w tablicy $filters2 i zrobimy to na tablicy $arr
         print_r(filter_var_array($arr, $filters2));
 
     }

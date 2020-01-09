@@ -1,7 +1,7 @@
 <?php
 
     # substr()
-    # Returns a portion oa a string -> wytnie od drugiego parametru do końca stringa lub do 3 parametru (jeśli jest)
+    # Returns a portion of a string -> wytnie od drugiego parametru do końca stringa lub do 3 parametru (jeśli jest)
     $output = substr("Hello", 1);
     echo $output; // ello
 
@@ -43,6 +43,7 @@
 
     # strtoupper()
     #makes everything uppercase
+    $output7 = "bedzie z duzej pozniej";
     $output7 = strtoupper($output7);
 
     # strtolower()
@@ -59,7 +60,7 @@
     # Replace all occurences of a search string with a replacement
 
     $text2 = "Hello World";
-    $output10 = str_replace('World','Everyone', $text);
+    $output10 = str_replace('World','Everyone', $text2);
     echo $output10;
 
     # is_string()
